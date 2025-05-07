@@ -1,0 +1,56 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+/* General Styles */
+.calculator-pane {
+    -fx-background-color: #f4f4f4;
+    -fx-padding: 20;
+}
+
+/* Wyświetlacz kalkulatora */
+.display {
+    -fx-font-size: 30;
+    -fx-text-fill: black;
+    -fx-background-color: #eaeaea;
+    -fx-alignment: center-right;
+    -fx-padding: 12;
+    -fx-margin-bottom: 10;  /* Przesunięcie ekranu w górę */
+}
+
+/* Przyciski funkcyjne naukowe */
+.func-button {
+    -fx-font-size: 25;
+    -fx-pref-width: 160;  /* Szerokość przycisku */
+    -fx-pref-height: 60; /* Wysokość przycisku */
+}
+
+/* Przycisk numeryczne */
+.digit-button {
+    -fx-font-size: 25;
+    -fx-pref-width: 160;
+    -fx-pref-height: 60;
+}
+
+/* Przyciski operacyjne */
+.operation-button {
+    -fx-font-size: 25;
+    -fx-pref-width: 160;
+    -fx-pref-height: 60;
+}
+
+/* Przyciski "=" i "CE" */
+.equal-button {
+    -fx-font-size: 25;
+    -fx-background-color: #007ACC;
+    -fx-text-fill: white;
+    -fx-pref-width: 160;
+    -fx-pref-height: 60;
+}
+
+/* Kolory przycisków funkcyjnych */
+.func-button:hover, .digit-button:hover, .operation-button:hover, .equal-button:hover {
+    -fx-background-color: #d3d3d3;
+}
+
+/* Aktywne przyciski */
+.equal-button:pressed {
+    -fx-background-color: #005a8e;
+}
